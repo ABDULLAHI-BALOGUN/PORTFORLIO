@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Algerian', serif;
+  background-color: black;
+  color: red;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center; /* Center text in container */
+}
+
+header {
+  background-color: #220000;
+  color: red;
+  padding: 30px 0;
+  border-bottom: 2px solid red;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  display: block;
+  margin: 0 auto 15px auto; /* Center the image and add bottom margin */
+  width: 180px;
+  height: 180px;
+  border-radius: 50%; /* Make image circular */
+  object-fit: cover;
+  border: 3px solid red;
+}
+
+header p {
+  font-size: 20px;
+}
+
+section {
+  padding: 20px 0;
+  border-bottom: 1px solid red;
+  text-align: left; /* Left align sections for readability */
+}
+
+section .container {
+  text-align: left;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid red;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #220000;
+  color: red;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  border-top: 2px solid red;
+}
